@@ -1,0 +1,64 @@
+* {
+  background-color: rgb(255, 208, 147);
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.recepie_search {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  font-size: 15px;
+  width: 18rem;
+  height: 30px;
+  border: solid 2px black;
+  border-radius: 5px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+button {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(128, 0, 58);
+  margin-left: 15px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: solid;
+  border-radius: 5px;
+  background-color: rgb(208, 247, 118);
+  cursor: pointer;
+}
+
+.display_cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recepie_cards {
+  display: block;
+  height: 100%;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.images {
+  display:block;
+  border: solid 4px rgb(109, 25, 25);
+}
+
+h4 {
+  color: rgb(135, 11, 11);
+  font-weight: 700;
+  font-size: 20px;
+}
